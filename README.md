@@ -1,9 +1,8 @@
-# Pagina Web
-Xochicalli Commerce
+# Xochicalli Commerce
 
 Un proyecto de una pagina web parecida a un Ecommerce con productos de plantas, solo diseño hecho con HTML, CSS y JavaScript
 
-![imagen](https://user-images.githubusercontent.com/114224382/210039656-b9066ba9-7e18-422f-8384-22a95d71d414.png)
+![imagen](https://user-images.githubusercontent.com/114224382/210039918-0c03d757-b7bc-4ceb-86ad-8b017ee35c74.png)
 
 ![imagen](https://user-images.githubusercontent.com/114224382/210039719-6f84ba04-b82f-430f-96fa-36c544c9b1be.png)
 

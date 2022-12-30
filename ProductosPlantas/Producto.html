@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" href="./Producto.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"></li>
+            <li><a href="../Inicio.html"><i><ion-icon name="home-outline"></ion-icon></i>Inicio</a></li>
+            <li><a href="#"><i><ion-icon name="logo-usd"></ion-icon></ion-icon></i>Productos</a></li>
+            <li><a href="../Blog/Blog.html"><i><ion-icon name="albums-outline"></ion-icon></i>Blog</a></li>
+            <li><a href="../PreguntasYRespuestas/Preguntas.html"><i><ion-icon name="help-outline"></ion-icon></i>Preguntas Frecuentes</a></li>
+            <li><a href="../AcercaDe/AcercaDe.html"><i><ion-icon name="alert-circle-outline"></ion-icon></i>Acerca de</a></li>
+        </ul>
+
+        <ul class="icon">
+            <li><a href="#"><i><ion-icon name="search-outline"></ion-icon></i></a></li>
+            <li><a href="../LogIn/LogIn.html"><i><ion-icon name="person"></ion-icon></i></a></li>
+            <li><a href="#" onclick="ver()"><i><ion-icon name="cart-outline"></ion-icon></i></a></li>
+        </ul>
+        <div id="menu">
+            <div class="titulo">
+                <h1>Tu producto</h1>
+                <p>1 producto</p>
+            </div>
+            <div class="producto">
+                <div class="pro-img">
+
+                </div>
+                <div class="seleccion">
+                    <p>Orquidea amarilla</p>
+                    <i><ion-icon name="trash"></ion-icon></i>
+                    <select name="cantidad">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                    </select>
+                </div>
+                <p class="precio">$400</p>
+            </div>
+            <div class="cupon">
+                <h2>¿Tienes un cupón?</h2>
+                <div class="chk" onclick="move()" id="chk">
+                    <div id="chk2"></div>
+                </div>
+                <h2>Ingresa el cupón</h2>
+                <input type="text"><i id="si"><ion-icon name="checkmark-circle"></ion-icon></i><br>
+                <button onclick="mostrar()">Agregar cupon</button>
+            </div>
+            <div class="contenido">
+                <span>Subtotal:</span>
+                <span class="pre"> $750</span><br>
+                <span>Descuento:</span>
+                <span class="pre"> $750</span><br>
+                <span>Total: </span>
+                <span class="pre"> $675</span>
+    
+                <button class="continue" onclick="ocultar()">Continuar compra</button>
+            </div>
+        </div>
+    </header>
+    <div class="productos">
+        
+        <div class="container">
+            <ul>
+                <li  class="pri"><a href="#">Plantas</a> </li>
+                <li><a href="#banner3">Fertilizante</a></li>
+                <li><a href="#box4"></a>Abonos</li>
+                <li><a href="#box4"></a>Herramientas</li>
+            </ul>
+        </div>
+        <h1 class="tit">Plantas de interior</h1>
+        <div class="txt">
+            <p>Se denomina planta de interior a cualquier especie vegetal cultivada en lugares bajo techo, como casas u oficinas. En su gran mayoría, son variedades de climas tropicales que se aclimatan en entornos geográficos ajenos gracias a que el cultivo en interior les proporciona las condiciones adecuadas.</p>
+
+        </div>
+        <h1>Conoce algunas plantas de interior</h1>
+            <div class="pro">
+                <i class="left"><ion-icon name="chevron-back-outline"></ion-icon></i>
+                <div class="planta" onclick="llevar()">
+                    <div class="pic">
+                        <div class="or"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Orquilla amarilla</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$400</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="planta" onclick="llevar()">
+                    <div class="pic">
+                        <div class="ave"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Ave del paraiso</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$350</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="planta" onclick="llevar()"> <div class="star">
+                </div>
+                    <div class="pic">
+                        <div class="tronco"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Tronco de brasil</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$450</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <i class="right"><ion-icon name="chevron-forward-outline"></ion-icon></i>
+            </div>
+            <div class="pro">
+                <i class="left1"><ion-icon name="chevron-back-outline"></ion-icon></i>
+                <div class="planta" onclick="llevar()">
+                    <div class="pic">
+                        <div class="crontont"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Croton Excellent</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$600</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="planta" onclick="llevar()">
+                    <div class="pic">
+                        <div class="jade"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Jade</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$350</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <div class="planta" onclick="llevar()"><div class="star">
+                </div>
+                    <div class="pic">
+                        <div class="serpiente"></div>
+                    </div>
+                    <div class="info">
+                        <div class="nombre"><h4>Planta serpiente</h4></div>
+                        <div class="precio">
+                            <p>Precio</p>
+                            <div class="valor">$400</div>
+                        </div>
+                        <div class="star">
+                        </div>
+                    </div>
+                </div>
+                <i class="right1"><ion-icon name="chevron-forward-outline"></ion-icon></i>
+            </div>
+    </div>
+    <div class="productos">
+        
+        <div class="lo">
+            <a href="#" class="what"><i><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="cont">
+            <div class="atencion">
+                <li><h4>Atencion al cliente</h4></li>
+                <li><a href="../Contacto/Contacto.html"><h5>Contacto</h5></a></li>
+                <li><a href="../PoliticasDePrivacidad/Politicas.html"><h5>Aviso de privacidad</h5></a></li>
+            </div>
+
+            <div class="tarjetas">
+                <ul>
+                    <li class="visa"></li>
+                    <li class="master"></li>
+                    <li class="paypal"></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="cont">
+            <div class="siguenos">
+                <h4>Siguenos en:</h4>
+                <ul>
+                    <li style="--clr:#3B5998    ;"><a href="#"><i><ion-icon name="logo-facebook"></ion-icon></i></a></li>
+                    <li style="--clr:#a12e00;"><a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                    <li style="--clr:#00acee;"><a href="#"><i><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="ubicacion">
+                <ul>
+                    <li style="--clr:#df0000;"><ion-icon name="location"></ion-icon></li>
+                    <li><h5>Lomas de chapultepec, Huejutal, Hidalgo, Mexico</h5></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./check.js"></script>
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

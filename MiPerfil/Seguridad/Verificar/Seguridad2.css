@@ -1,0 +1,253 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+header i{
+
+    color: green;
+    font-size: 1.8em;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+header li{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../../../Imagenes/LOGO\ XOCHICALLI-JPG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.icon{
+    font-size: 1.8em;
+}
+
+/* --------------------Body------------------------- */
+
+.container{
+    background: #b6d7a8;
+    padding: 2px;
+    justify-content: center;
+}
+
+.container .box .tit{
+    display: flex;
+    color:#fff000;
+    justify-content: center;
+}
+
+.box{
+    background: #9fc5f8;
+    border: 2px solid #000;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    height: 1100px;
+    margin: auto;
+    margin-top: 80px;
+}
+
+.box .con{
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.box .content{
+    border-bottom: 4px solid #000;
+    text-align: left;
+    width: 800px;
+}
+
+.content{
+    padding-left: 120px;
+}
+
+.content h1{
+    font-size: 1.6em;
+}
+.content h2{
+    color: #660000;
+    font-size: 1.5em;
+}
+
+.content i{
+    margin-top: -60px;
+    font-size: 5em;
+    display: flex;
+    position: relative;
+    transform: translate(-90px,100px);
+}
+
+.help{
+    background-color: #000;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #9fc5f8;
+}
+
+.arrow{
+    display: flex;
+    margin-left: 800px;
+    margin-right: -800px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.arrow:hover{
+    margin-left: 840px;
+    margin-right: -800px;
+}
+
+button{
+    background-color: var(--clr);
+    color: #fff;
+    margin-left: 35%;
+    margin-right: -150px;
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor: pointer;
+    outline: none;
+    border: 2px solid #000;
+    transition: .5s;
+}
+
+button:hover{
+    font-size: 1.6em;
+    box-shadow: 4px 4px #000;
+}
+
+#ale{
+    color: #660000;
+    margin-left: 94%;
+    visibility: hidden;
+}
+
+#chk,#chk2,#chk3,#chk4{
+    color: #007910;
+    margin-left: 94%;
+    visibility: hidden;
+}
+
+
+.lo{
+    margin-top: 10%;
+}
+.what{
+    color: #007910;
+    font-size: 5em;
+    position:absolute;
+    bottom: -780px;
+    right: 0;
+}
+
+
+/* -------------------footer------------------------- */
+
+footer{
+    display: flex;
+    color: #fff;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    margin-left: 50px;
+    padding: 20px;
+}
+.cont h4{
+    color: green;
+    font-size: 1.8em;
+}
+
+.atencion li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -35px;
+}
+.atencion li h5{
+    font-size: 1em;
+}
+
+.tarjetas{
+    margin-left: -400px;
+}
+.tarjetas ul li{
+    list-style: none;
+    margin: 40px;
+    font-size: 1.8em;
+    color: var(--clr);
+}
+.tarjetas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.siguenos h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.siguenos ul{
+    display: flex;
+}
+.siguenos ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 3em;
+}
+.siguenos ul li a{
+    color: var(--clr);
+}
+
+.ubicacion ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubicacion ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.1em;
+    color: var(--clr);
+}

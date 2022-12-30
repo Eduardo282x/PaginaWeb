@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de Compra</title>
+    <link rel="stylesheet" href="./DatosCompra.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"></li>
+            <li><a href="../../Inicio.html"><i><ion-icon name="home-outline"></ion-icon></i>Inicio</a></li>
+            <li><a href="../../ProductosPlantas/Producto.html"><i><ion-icon name="logo-usd"></ion-icon></ion-icon></i>Productos</a></li>
+            <li><a href="../../Blog/Blog.html"><i><ion-icon name="albums-outline"></ion-icon></i>Blog</a></li>
+            <li><a href="../../PreguntasYRespuestas/Preguntas.html"><i><ion-icon name="help-outline"></ion-icon></i>Preguntas Frecuentes</a></li>
+            <li><a href="../../AcercaDe/AcercaDe.html"><i><ion-icon name="alert-circle-outline"></ion-icon></i>Acerca de</a></li>
+        </ul>
+
+        <ul class="icon">
+            <li><a href="#"><i><ion-icon name="search-outline"></ion-icon></i></a></li>
+            <li><a href="../../LogIn/LogIn.html"><i><ion-icon name="person"></ion-icon></i></a></li>
+            <li><a href="../../ProductosPlantas/Producto.html"><i><ion-icon name="cart-outline"></ion-icon></i></a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <h1>Datos de compras</h1>
+        <div class="container2">
+            <div class="usuario">
+                <div class="nombre">
+                    <p>¡Hola Kevin! <span>Tu pedido llegara de 2 a 4 dias</span></p>
+                </div>
+                <div class="datos">
+                    <p>Tu correo: </p>
+                    <span>Kevin11@gmail.com</span>
+                    <p>Nombre completo: </p>
+                    <span>Kevin Mina Martinez</span>
+                    <p>Telefono: </p>
+                    <span>7712105123</span>
+                </div>
+                <div class="entrega">
+                    <div class="codigo">
+                        <p>Codigo postal:</p>
+                        <span>43050</span>
+                    </div>
+                    <div class="direccion">
+                        <div class="direccion1">
+                            <div class="estado"><p>Estado</p><span>Higaldo</span></div>
+                            <div class="colonia"><p>Colonia</p><span>Barrio arriba</span></div>
+                        </div>
+                        <div class="direccion2">
+                            <div class="municipio"><p>Municipio/alcaldia</p><span>Huatla</span></div>
+                            <div class="calle"><p>Calle</p><span>Higaldo</span></div>
+                        </div>
+                    </div>
+                    <div class="exterior">
+                        <p>N° Exterior</p>
+                        <span></span><br>
+                        <span>Sin numero exterior</span>
+                    </div>
+                </div>
+                <div class="demas">
+                    <p class="q">¿Quieres una factura?</p>
+                    <div class="chk" onclick="move()" id="chk">
+                        <div class="chk2" id="chk2"></div>
+                    </div>
+                    <div class="direccion">
+                        <div class="direccion1">
+                            <div class="Ncompleto"><p>Nombre completo</p><span>Kevin Mina Martinez</span></div>
+                            <div class="Dcompleta"><p>Direccion completa</p><span>Huautla, Barrio arriba, Higaldo</span></div>
+                            <div class="postal"><p>Codigo postal</p><span>43050</span></div>
+                        </div>
+                        <div class="direccion2">
+                            <div class="rfc"><p>RFC</p><span>123991</span></div>
+                            <div class="pais"><p>Pais</p><span>Mexico</span></div>
+                            <div class="estado"><p>Estado</p><span>Mexico</span></div>
+                        </div>
+                    </div>
+                    <p class="pago">Metodo de pago</p>
+                    <div class="tarje">
+                        <div class="tar">
+                            <ul>
+                                <li class="visa"></li>
+                                <li class="master"></li>
+                            </ul>
+                        </div>
+                        <div class="tar">
+                            <ul>
+                                <li class="paypal"></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <p class="numero">Número de tarjeta</p>
+                    <span class="numero1">1243-4566-7867-8556</span>
+                    <div class="direccion">
+                        <div class="direccion3">
+                            <p>Vigencia:</p>
+                            <span>06/24</span>
+                        </div>
+                        <div class="direccion4">
+                            <p>CVC:</p>
+                            <span>555</span>
+                        </div>
+                    </div>
+                    <button onclick="ocultar()">Finalizar compra</button>
+                </div>
+            </div>
+            <div id="menu">
+                
+                <div class="titulo">
+                    <h1>Tu producto</h1>
+                    <p>1 producto</p>
+                </div>
+                <div class="producto">
+                    <div class="pro-img">
+    
+                    </div>
+                    <div class="seleccion">
+                        <p>Orquidea amarilla</p>
+                        <i><ion-icon name="trash"></ion-icon></i>
+                        <select name="cantidad">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                    </div>
+                    <p class="precio">$400</p>
+                </div>
+                <div class="cupon">
+                    <h2>¿Tienes un cupón?</h2>
+                    <div class="chk" onclick="move2()" id="chk4">
+                        <div class="chk2" id="chk3"></div>
+                    </div>
+                    <h2>Ingresa el cupón</h2>
+                    <input type="text"><i id="si"><ion-icon name="checkmark-circle"></ion-icon></i><br>
+                    <button onclick="mostrar()">Agregar cupon</button>
+                </div>
+                <div class="contenido">
+                    <span>Subtotal:</span>
+                    <span class="pre"> $750</span><br>
+                    <span>Descuento:</span>
+                    <span class="pre"> $750</span><br>
+                    <span>Total: </span>
+                    <span class="pre"> $675</span>
+        
+                    <button class="continue">Continuar compra</button>
+                </div>
+            </div>
+            <div class="comentariofinal">
+                <h1 class="h1com">Algunos comentarios de nuestros clientes</h1>
+                <div class="comentarios">
+                    <div class="com">
+                        <div class="user">
+                            <div class="star">
+                            </div>
+                            <p>Por</p>
+                            <p class="per">Kevin</p>
+                        </div>
+                        <div class="fecha">
+                            <p>Fecha: </p>
+                            <p class="f">2 de octubre</p>
+                        </div>
+                        <div class="opinion"><p>Excelente calidad en los productos, son muy buenos enserio</p></div>
+                    </div>
+                    <div class="com">
+                        <div class="user">
+                            <div class="star">
+                            </div>
+                            <p>Por</p>
+                            <p class="per">Adair</p>
+                        </div>
+                        <div class="fecha">
+                            <p>Fecha: </p>
+                            <p class="f">15 de agosto</p>
+                        </div>
+                        <div class="opinion"><p>El envio es super rapido, buen trabajo</p></div>
+                    </div>
+                </div>
+                <div class="comentarios">
+                    <div class="com">
+                        <div class="user">
+                            <div class="star">
+                            </div>
+                            <p>Por</p>
+                            <p class="per">Esteban</p>
+                        </div>
+                        <div class="fecha">
+                            <p>Fecha: </p>
+                            <p class="f">12 de octubre</p>
+                        </div>
+                        <div class="opinion"><p>Gracias mi producto llego a tiempo</p></div>
+                    </div>
+                    <div class="com">
+                        <div class="user">
+                            <div class="star">
+                            </div>
+                            <p>Por</p>
+                            <p class="per">Gerard</p>
+                        </div>
+                        <div class="fecha">
+                            <p>Fecha: </p>
+                            <p class="f">2 de octubr</p>
+                        </div>
+                        <div class="opinion"><p>Excelente calidad en los productos, son muy buenos enserio</p></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="lo">
+            <a href="#" class="what"><i><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+        </div>
+
+    </div>
+    
+    <footer>
+        <div class="cont">
+            <div class="atencion">
+                <ul>
+                    <li><h4>Atencion al cliente</h4></li>
+                    <li><a href="../../Contacto/Contacto.html"><h5>Contacto</h5></a></li>
+                    <li><a href="../../PoliticasDePrivacidad/Politicas.html"><h5>Aviso de privacidad</h5></a></li>
+                </ul>
+            </div>
+
+            <div class="tarjetas">
+                <ul>
+                    <li class="visa"></li>
+                    <li class="master"></li>
+                    <li class="paypal"></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="cont">
+            <div class="siguenos">
+                <h4>Siguenos en:</h4>
+                <ul>
+                    <li style="--clr:#3B5998    ;"><a href="#"><i><ion-icon name="logo-facebook"></ion-icon></i></a></li>
+                    <li style="--clr:#a12e00;"><a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                    <li style="--clr:#00acee;"><a href="#"><i><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="ubicacion">
+                <ul>
+                    <li style="--clr:#df0000;"><ion-icon name="location"></ion-icon></li>
+                    <li><h5>Lomas de chapultepec, Huejutal, Hidalgo, Mexico</h5></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./check.js"></script>
+
+</body>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</html>

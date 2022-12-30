@@ -1,0 +1,205 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+header i{
+
+    color: green;
+    font-size: 1.8em;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+header li{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../Imagenes/LOGO\ XOCHICALLI-JPG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.icon{
+    font-size: 1.8em;
+}
+
+/*---------------------Body------------------------------*/
+
+.container{
+    background: #b6d7a8;
+    padding: 2px;
+    text-align: center;
+}
+h1{
+    font-size: 48px;
+    color: #ffff00;
+}
+h2{
+    font-size: 32px;
+}
+p{
+    font-size: 18px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: 600;
+    color: #660000;
+}
+
+.lo{
+    margin-top: 50px;
+}
+.what{
+    color: #007910;
+    font-size: 5em;
+    margin-left: 93%;
+}
+
+/* -------------------footer------------------------- */
+
+footer{
+    display: flex;
+    color: #fff;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    margin-left: 50px;
+    padding: 20px;
+}
+.cont h4{
+    color: green;
+    font-size: 1.8em;
+}
+
+.atencion li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -35px;
+}
+.atencion li h5{
+    font-size: 1em;
+}
+
+.tarjetas{
+    margin-left: -400px;
+}
+.tarjetas ul li{
+    list-style: none;
+    margin: 40px;
+    font-size: 1.8em;
+    color: var(--clr);
+}
+.tarjetas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.siguenos h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.siguenos ul{
+    display: flex;
+}
+.siguenos ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 3em;
+}
+.siguenos ul li a{
+    color: var(--clr);
+}
+
+.ubicacion ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubicacion ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.1em;
+    color: var(--clr);
+}
+
+.visa{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/visa.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.paypal{
+    width: 60px;
+    height: 30px;
+    background-image: url(../../Imagenes/paypal.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.master{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/tarjeta-de-credito.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.master:hover{
+    box-shadow: 0 0 30px 5px red;
+}
+.visa:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+.paypal:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+
+.atencion a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,527 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+header i{
+
+    color: green;
+    font-size: 1.8em;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+header li{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../../../Imagenes/LOGO\ XOCHICALLI-JPG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.icon{
+    font-size: 1.8em;
+}
+
+/* --------------------Body------------------------- */
+
+.container{
+    background: #b6d7a8;
+    padding: 2px;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    color:#fff000;
+    margin-left: 17%;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+#menu{
+    background: #9fc5f8;
+    padding: 2px;
+    border: 2px solid #000;
+    height: 900px;
+    width: 35%;
+}
+.usuario{
+    background: #9fc5f8;
+    padding: 2px;
+    border: 2px solid #000;
+    height: 1600px;
+    width: 35%;
+}
+#menu .titulo{
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    padding: 0 30px;
+}
+#menu .producto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+}
+#menu .producto .pro-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../../Imagenes/or1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menu .producto .seleccion select{
+    width: 60%;
+    font-size: 1.2em;
+    display: inline;
+    transform: translateY(-10px);
+    background: transparent;
+    border: 2px solid #000;
+}
+#menu .producto .seleccion p{
+    color: #660000;
+    font-size: 1.5em;
+}
+#menu .producto .seleccion i{
+    color: #000;
+    font-size: 2.5em;
+}
+#menu .producto .precio{
+    color: #660000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#menu .cupon{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+
+#menu .cupon .chk,.usuario .demas .chk{
+    background: #007910;
+    height: 25px;
+    width: 60px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(20px, -45px);
+    color: #000;
+    border: 2px solid #000;
+    transition: .5s;
+    cursor: pointer;
+}
+#menu .cupon .chk #chk2,.chk #chk3,.usuario .demas .chk2{
+    background: #fff;
+    transition: .5s;
+    margin-top: -4px;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#menu .cupon h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#menu .cupon input{
+    justify-content: center;
+    margin-left:25%;
+    color: #660000;
+    font-size: 1.5em;
+    padding: 2px;
+    outline: none;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#menu .contenido{
+    padding-top: 100px;
+}
+#menu .contenido span{
+    color: #000;
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#menu .contenido .pre{
+    margin-left: 0;
+    color: #660000;
+}
+
+.usuario .nombre{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    border-bottom: 3px solid #000;
+}
+.usuario .nombre span{
+    color: #660000;
+}
+
+.usuario .datos{
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.usuario .datos span{
+    display: block;
+    color: #660000;
+    width: 90%;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 3px solid #000;
+}
+.usuario .entrega,.usuario .demas{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.usuario .entrega span,.usuario .demas span{
+    color: #660000;
+    border-bottom: 3px solid #000;
+    padding-bottom: 5px;
+}
+.usuario .entrega .codigo{
+    text-align: center;
+}
+.usuario .entrega .direccion,.usuario .demas .direccion{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+.usuario .entrega .direccion span, .usuario .demas .direccion span{
+    display: block;
+}
+.usuario .entrega .direccion .direccion1,.direccion2{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.usuario .demas .direccion .direccion3,.direccion4{
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+.usuario .demas .direccion .direccion1,.direccion2{
+    margin: auto;
+    padding: 10px;
+}
+
+.usuario .entrega .exterior{
+    text-align: center;
+    margin: auto;
+}
+.usuario .entrega .exterior span{
+    border-top: 3px solid #000;
+    border-bottom: none;
+}
+
+.q{
+    padding-top: 50px;
+    padding-left: 100px;
+    margin-left: 20px;
+}
+.pago, .numero{
+    text-align: center;
+}
+.numero1{
+    margin-left: 30%;
+}
+
+.tarje {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -50px;
+}
+
+.usuario .demas .tar ul{
+    background: #fff;
+    border: 2px solid #000;
+    border-radius: 5px;
+    padding: 5px 25px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.usuario .demas .tar ul li{
+    list-style: none;
+    margin-left: -10px;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    background: #007910;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    font-size: 1.2em;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: 2px solid #000;
+    transition: .5s;
+    padding: 5px 20px;
+}
+
+button:hover{
+    font-size: 1.6em;
+    box-shadow: 4px 4px #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.compra{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 17%;
+}
+
+.compra span{
+    color: #660000;
+}
+
+
+.comentarios{
+    display: flex;
+    justify-content: space-around;
+}
+
+.comentarios .com{
+    height: 200px;
+    width: 300px;
+    background: #9fc5f8;
+    border: 2px solid #000;
+    font-weight: bold;
+}
+
+.comentariofinal{
+    position: absolute;
+    bottom: -160%;
+    right: 20px;
+}
+.h1com{
+    color: #000;
+    font-size: 26px;
+    margin-left: -50px;
+    text-align: center;
+}
+.comentarios .com{
+    margin-bottom: 50px;
+    margin-right: 10px;
+}
+.comentarios .com .user{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comentarios .com .user .star{
+    background-image: url(../../Imagenes/estrellas.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 50%;
+}
+.comentarios .com .user .per{
+    color: #660000;
+}
+
+.comentarios .com .fecha{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.comentarios .com .fecha .f{
+    color: #660000;
+}
+
+.comentarios .com .opinion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.comentarios .com .opinion p{
+    color: #660000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.lo{
+    margin-top: 10%;
+}
+.what{
+    color: #007910;
+    font-size: 5em;
+    position:absolute;
+    bottom: -190%;
+    right: 0;
+}
+
+
+/* -------------------footer------------------------- */
+
+footer{
+    display: flex;
+    color: #fff;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    margin-left: 50px;
+    padding: 20px;
+}
+.cont h4{
+    color: green;
+    font-size: 1.8em;
+}
+
+.atencion li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -35px;
+}
+.atencion li h5{
+    font-size: 1em;
+}
+
+.tarjetas{
+    margin-left: -400px;
+}
+.tarjetas ul li{
+    list-style: none;
+    margin: 40px;
+    font-size: 1.8em;
+    color: var(--clr);
+}
+.tarjetas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.siguenos h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.siguenos ul{
+    display: flex;
+}
+.siguenos ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 3em;
+}
+.siguenos ul li a{
+    color: var(--clr);
+}
+
+.ubicacion ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubicacion ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.1em;
+    color: var(--clr);
+}
+.visa{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/visa.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.paypal{
+    width: 60px;
+    height: 30px;
+    background-image: url(../../Imagenes/paypal.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.master{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/tarjeta-de-credito.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.master:hover{
+    box-shadow: 0 0 30px 5px red;
+}
+.visa:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+.paypal:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+
+.atencion a{
+    text-decoration: none;
+    color: #fff;
+}

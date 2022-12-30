@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="./Registro.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li class="logo"></li>
+            <li><a href="../Inicio.html"><i><ion-icon name="home-outline"></ion-icon></i>Inicio</a></li>
+            <li><a href="../ProductosPlantas/Producto.html"><i><ion-icon name="logo-usd"></ion-icon></ion-icon></i>Productos</a></li>
+            <li><a href="../Blog/Blog.html"><i><ion-icon name="albums-outline"></ion-icon></i>Blog</a></li>
+            <li><a href="../PreguntasYRespuestas/Preguntas.html"><i><ion-icon name="help-outline"></ion-icon></i>Preguntas Frecuentes</a></li>
+            <li><a href="../AcercaDe/AcercaDe.html"><i><ion-icon name="alert-circle-outline"></ion-icon></i>Acerca de</a></li>
+        </ul>
+
+        <ul class="icon">
+            <li><a href="#"><i><ion-icon name="search-outline"></ion-icon></i></a></li>
+            <li><a href="#"><i><ion-icon name="person"></ion-icon></i></a></li>
+            <li><a href="../ProductosPlantas/Producto.html"><i><ion-icon name="cart-outline"></ion-icon></i></a></li>
+        </ul>
+    </header>
+
+    <div class="container">
+        <div class="box">
+            <h1>Bienvenido</h1>
+            <i class="user"><ion-icon name="person"></ion-icon></i>
+            <form class="formulario">
+                
+                <label>Nombre</label>
+                <i><ion-icon name="person"></ion-icon><ion-icon id="chk" name="checkmark-circle"></ion-icon></i>
+                <input type="text" id="txt" onkeypress="valid()" required="required">
+                <label>Apellido Paterno</label>
+                <i><ion-icon name="person"></ion-icon> <ion-icon id="chk2" name="checkmark-circle"></ion-icon></i>
+                <input type="text" id="txt2" onkeypress="valid2()" required="required">
+                <label>Apellido Materno</label>
+                <i><ion-icon name="person"></ion-icon><ion-icon id="chk3" name="checkmark-circle"></ion-icon></i>
+                <input type="text" id="txt3" onkeypress="valid3()" required="required">
+                <label class="s">Sexo</label>
+                <i><ion-icon name="male-female"></ion-icon></i>
+
+                <div class="sex">
+
+                    <input type="radio"  name="sexo">
+                    <span>Hombre</span>
+
+                    <input type="radio"  name="sexo">
+                    <span>Mujer</span>
+                </div>
+
+                <label>Telefono</label>
+                <i><ion-icon name="call"></ion-icon><ion-icon id="chk4" name="checkmark-circle"></ion-icon></i>
+                <input type="text" id="txt4" onkeypress="valid4()" required="required">
+                <label>Correo</label>
+                <i><ion-icon name="mail"></ion-icon><ion-icon id="chk5" name="checkmark-circle"></ion-icon></i>
+                <input type="email" id="txt5" onkeypress="valid5()" required="required">
+                <label>Contraseña</label>
+                <i><ion-icon name="lock-closed"></ion-icon><ion-icon id="chk6" name="checkmark-circle"></ion-icon></i>
+                <input type="password" id="txt6" onkeypress="valid6()" required="required">
+                <span class="eye" id="eye" onclick="eyes()"><ion-icon name="eye"></ion-icon></span>
+                
+                <div class="txt">
+                    <input type="checkbox" required="required">
+                    <span>Acepto los terminos y condiciones</span>
+                </div>
+
+                <div class="txt">
+                    <input type="checkbox" required="required">
+                    <span>He leido las politicas de privacidad</span>
+                </div>
+                
+                <button onclick="pagina()">Crear cuenta</button>
+            </form>
+            
+            <div class="redes" style="--clr:#3b5998;">
+                <i><ion-icon name="logo-facebook"></ion-icon></i>
+                <h2>Facebook</h2>
+            </div>
+            <div class="redes" style="--clr:#00acee;">
+                <i><ion-icon name="logo-twitter"></ion-icon></i>
+                <h2>Twitter</h2>
+            </div>
+            <div class="redes" style="--clr:#4285F4;">
+                <i><ion-icon name="logo-google"></ion-icon></i>
+                <h2>Google</h2>
+            </div>
+
+        </div>
+
+        <div class="lo">
+            <a href="#" class="what"><i><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="cont">
+            <div class="atencion">
+                <li><h4>Atencion al cliente</h4></li>
+                <li><a href="../Contacto/Contacto.html"><h5>Contacto</h5></a></li>
+                <li><a href="../PoliticasDePrivacidad/Politicas.html"><h5>Aviso de privacidad</h5></a></li>
+            </div>
+
+            <div class="tarjetas">
+                <ul>
+                    <li style="--clr:#1b00b6;"><ion-icon name="card-outline"></ion-icon></li>
+                    <li style="--clr:#b60000;"><ion-icon name="card-outline"></ion-icon></li>
+                    <li style="--clr:#1b00b6;"><ion-icon name="card-outline"></ion-icon></li>
+                </ul>
+            </div>
+            
+        </div>
+        
+        <div class="cont">
+            <div class="siguenos">
+                <h4>Siguenos en:</h4>
+                <ul>
+                    <li style="--clr:#3B5998    ;"><a href="#"><i><ion-icon name="logo-facebook"></ion-icon></i></a></li>
+                    <li style="--clr:#a12e00;"><a href="#"><i><ion-icon name="logo-instagram"></ion-icon></i></a></li>
+                    <li style="--clr:#00acee;"><a href="#"><i><ion-icon name="logo-twitter"></ion-icon></i></a></li>
+                </ul>
+            </div>
+    
+            <div class="ubicacion">
+                <ul>
+                    <li style="--clr:#df0000;"><ion-icon name="location"></ion-icon></li>
+                    <li><h5>Lomas de chapultepec, Huejutal, Hidalgo, Mexico</h5></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+<script src="./pass.js"></script>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>

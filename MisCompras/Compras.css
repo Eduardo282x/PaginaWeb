@@ -1,0 +1,336 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+header i{
+
+    color: green;
+    font-size: 1.8em;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+header li{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../../../Imagenes/LOGO\ XOCHICALLI-JPG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.icon{
+    font-size: 1.8em;
+}
+
+/* --------------------Body------------------------- */
+
+.container{
+    background: #b6d7a8;
+    padding: 2px;
+    justify-content: center;
+}
+
+h1{
+    display: flex;
+    color:#fff000;
+    margin-left: 17%;
+}
+.container2{
+    display: flex;
+    margin-left: 14%;
+}
+
+.container2 ul{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    border-right: 2px solid #000;
+}
+
+.container2 ul li{
+    list-style: none;
+    font-size: 1em;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 6px 4px #000;
+    cursor: pointer;
+}
+
+.container2 ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.container2 ul .a1{
+    background: #9fc5f8;
+}
+.container2 ul li:active{
+    background-color: #9fc5f8;
+}
+
+
+.box{
+    background: #9fc5f8;
+    border: 2px solid #000;
+    justify-content: space-between;
+    padding: 20px 40px 20px 40px;
+    font-size: 1.2em;
+    align-items: center;
+    width: 65%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.box .info{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 1em;
+    border-bottom: 3px solid #000;
+}
+.box .info span{
+    color: #660000;
+}
+.box .datos .img1{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    display: flex;
+    margin: auto;
+    background-image: url(../Imagenes/or1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box .datos .img2{
+    width: 150px;
+    height: 150px;
+    border: 2px solid #000;
+    display: flex;
+    margin: auto;
+    background-image: url(../Imagenes/Ave1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box .datos .estado, .box .datos .categoria{
+    margin: auto;
+}
+.box .datos{
+    display: flex;
+    font-weight: bold;
+}
+.box .datos span{
+    color: #660000;
+}
+
+
+.box .datos .btn{
+    margin: auto;
+    justify-content: center;
+}
+
+
+.eliminar{
+    background: #007910;
+    padding: 5px 10px 5px 10px;
+}
+.eliminar a{
+    color: #fff;
+}
+
+button{
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    font-size: 1em;
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: 2px solid #000;
+    transition: .5s;
+}
+
+button:hover{
+    font-size: 1.2em;
+    box-shadow: 4px 4px #000;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+
+.compra{
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 17%;
+}
+
+.compra span{
+    color: #660000;
+}
+.lo{
+    margin-top: 10%;
+}
+.what{
+    color: #007910;
+    font-size: 5em;
+    position:absolute;
+    bottom: -380px;
+    right: 0;
+}
+
+
+/* -------------------footer------------------------- */
+
+footer{
+    display: flex;
+    color: #fff;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    margin-left: 50px;
+    padding: 20px;
+}
+.cont h4{
+    color: green;
+    font-size: 1.8em;
+}
+
+.atencion li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -35px;
+}
+.atencion li h5{
+    font-size: 1em;
+}
+
+.tarjetas{
+    margin-left: -400px;
+}
+.tarjetas ul li{
+    list-style: none;
+    margin: 40px;
+    font-size: 1.8em;
+    color: var(--clr);
+}
+.tarjetas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.siguenos h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.siguenos ul{
+    display: flex;
+}
+.siguenos ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 3em;
+}
+.siguenos ul li a{
+    color: var(--clr);
+}
+
+.ubicacion ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubicacion ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.1em;
+    color: var(--clr);
+}
+.visa{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/visa.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.paypal{
+    width: 60px;
+    height: 30px;
+    background-image: url(../../Imagenes/paypal.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.master{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/tarjeta-de-credito.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.master:hover{
+    box-shadow: 0 0 30px 5px red;
+}
+.visa:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+.paypal:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+
+.atencion a{
+    text-decoration: none;
+    color: #fff;
+}

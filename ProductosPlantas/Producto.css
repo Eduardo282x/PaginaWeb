@@ -1,0 +1,601 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+header i{
+
+    color: green;
+    font-size: 1.8em;
+    margin: 10px;
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    cursor: pointer;
+}
+header a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+}
+header li{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    align-items: center;
+}
+
+.logo{
+    background-image: url(../Imagenes/LOGO\ XOCHICALLI-JPG.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 60px;
+    width: 60px;
+    margin-left: -40px;
+    margin-right: -10px;
+}
+
+.icon{
+    font-size: 1.8em;
+}
+
+/* --------------------Body------------------------- */
+
+.text{
+    margin-top: -30px;
+    padding: 20px;
+    background: #b6d7a8;
+    padding-bottom: 80px;
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+    color: #ffff00;
+    font-size: 64px;
+}
+.text h2{
+    display: flex;
+    justify-content: center;
+    font-size: 44px;
+}
+.text h3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-right:250px;
+    font-size: 24px;
+    color: #660000;
+}
+
+.linea{
+    height: 20px;
+    width: 100%;
+    background: #353535;
+}
+
+.container{
+    margin-bottom: -20px;
+    display: flex;
+    justify-content: center;
+}
+
+.container ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    border-right: 2px solid #000;
+}
+
+.container ul li{
+    list-style: none;
+    font-size: 1.1em;
+    border-left: 2px solid #000;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    padding-left: 40px;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 6px 4px #000;
+    cursor: pointer;
+}
+
+.container ul li a {
+    color: #000;
+    text-decoration: none;
+}
+.container ul li:active{
+    background-color: #9fc5f8;
+}
+
+.container ul .pri{
+    background: #9fc5f8;
+}
+.txt{
+    color: #660000;
+    display: flex;
+    margin: 0 80px;
+    font-size: 1.5em;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.productos{
+    background: #b6d7a8;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 40px;
+}
+.tit{
+    color: #ffff00;
+    font-size: 3em;
+}
+.productos h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.productos i.left{
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    margin-right: -100px;
+    margin-left: -50px;
+}
+.productos i.right{
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    margin-right: -50px;
+    margin-left: -100px;
+}
+.productos i.left1{
+    display: flex;
+    align-items: center;
+    font-size: 4em;
+    margin-right: -100px;
+    color: transparent;
+    margin-left: -50px;
+}
+.productos i.right1{
+    display: flex;
+    align-items: center;
+    color: transparent;
+    font-size: 4em;
+    margin-right: -50px;
+    margin-left: -100px;
+}
+.pro{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8%;
+}
+
+.planta{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #000;
+}
+
+
+.plantap .pic{
+    height: 50%;
+    border-bottom: 2px solid #000;
+}
+
+.planta .pic{
+    height: 75%;
+    border-bottom: 2px solid #000;
+}
+
+.planta .pic .or{
+    background-image: url(../Imagenes/or1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .ave{
+    background-image: url(../Imagenes/Ave1.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .tronco{
+    background-image: url(../Imagenes/tronco\ de\ brasil.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .crontont{
+    background-image: url(../Imagenes/croton.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .jade{
+    background-image: url(../Imagenes/jade.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .serpiente{
+    background-image: url(../Imagenes/planta\ serp.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .terra{
+    background-image: url(../Imagenes/terra.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .ni{
+    background-image: url(../Imagenes/nitro.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .pic .natura{
+    background-image: url(../Imagenes/multi.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+.planta .info{
+    background: #9fc5f8;
+    display: flex;
+    width: 100%;
+    height: 24%;
+    justify-content: center;
+}
+
+.planta .info .precio{
+    display: flex;
+    width: 40%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.planta .info .star{
+    background-image: url(../Imagenes/estrellas.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 50%;
+    width: 50%;
+    margin-left: -80px;
+    margin-top: 10px;
+    transform: translateY(70%);
+}
+
+
+.planta .info .nombre{
+    width: 40%;
+    height: 100%;
+    color: #660000;
+    align-items: center;
+    margin-top: -10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.planta .info .precio p{
+    font-weight: bold;
+    margin-left: 110px;
+    margin-right: 20px;
+}
+.planta .info .precio .valor{
+    color: #660000;
+    width: 100%;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.planta .info .precio .valord{
+    color: #660000;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+    margin-right: -10px;
+    margin-top: 15px;
+}
+
+#menu{
+    display: none;
+    background: #9fc5f8;
+    padding: 2px;
+    border: 2px solid #000;
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 900px;
+    width: 35%;
+    z-index: 10;
+}
+
+#si{
+    visibility: hidden;
+    font-size: 2.5em;
+}
+
+#menu .titulo{
+    border-bottom: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #000;
+    padding: 0 30px;
+}
+#menu .producto{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding-bottom: 30px;
+}
+#menu .producto .pro-img{
+    width: 100px;
+    height: 100px;
+    background-image: url(../Imagenes/or1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#menu .producto .seleccion select{
+    width: 60%;
+    font-size: 1.2em;
+    display: inline;
+    transform: translateY(-10px);
+    background: transparent;
+    border: 2px solid #000;
+}
+#menu .producto .seleccion p{
+    color: #660000;
+    font-size: 1.5em;
+}
+#menu .producto .seleccion i{
+    color: #000;
+    font-size: 2.5em;
+}
+#menu .producto .precio{
+    color: #660000;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#menu .cupon{
+    color: #000;
+    border-bottom: 2px solid #000;
+}
+
+
+#menu .cupon .chk{
+    background: #007910;
+    height: 25px;
+    width: 60px;
+    border-radius: 20px;
+    position: absolute;
+    transform: translate(20px, -45px);
+    color: #000;
+    border: 2px solid #000;
+    transition: .5s;
+    cursor: pointer;
+}
+#menu .cupon .chk #chk2{
+    background: #fff;
+    transition: .5s;
+    margin-top: -4px;
+    margin-left: 30px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+#menu .cupon h2{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+#menu .cupon input{
+    justify-content: center;
+    margin-left:25%;
+    color: #660000;
+    font-size: 1.5em;
+    padding: 2px;
+    outline: none;
+    border: 1px solid #000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#menu .contenido{
+    padding-top: 100px;
+}
+#menu .contenido span{
+    color: #000;
+    margin-left: 30%;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#menu .contenido .pre{
+    margin-left: 0;
+    color: #660000;
+}
+
+.continue{
+    transform: translateY(100px);
+}
+
+
+button{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    background-color: #007910;
+    border: 2px solid #000;
+    box-shadow: 2px 2px #000;
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    font-size: 1.4em;
+    box-shadow: 6px 6px #000;
+}
+
+.lo{
+    margin-top: 50px;
+}
+.what{
+    color: #007910;
+    font-size: 5em;
+    margin-left: 93%;
+}
+
+/* -------------------footer------------------------- */
+
+footer{
+    display: flex;
+    color: #fff;
+    background: #000;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont{
+    margin-left: 50px;
+    padding: 20px;
+}
+.cont h4{
+    color: green;
+    font-size: 1.8em;
+}
+
+.atencion li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-top: -35px;
+}
+.atencion li h5{
+    font-size: 1em;
+}
+
+.tarjetas{
+    margin-left: -400px;
+}
+.tarjetas ul li{
+    list-style: none;
+    margin: 40px;
+    font-size: 1.8em;
+    color: var(--clr);
+}
+.tarjetas ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -30px;
+}
+
+.siguenos h4{
+    display: flex;
+    justify-content: center;
+    margin-top: -40px;
+}
+.siguenos ul{
+    display: flex;
+}
+.siguenos ul li{
+    list-style: none;
+    margin: auto;
+    font-size: 3em;
+}
+.siguenos ul li a{
+    color: var(--clr);
+}
+
+.ubicacion ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ubicacion ul li{
+    list-style: none;
+    margin: 10px;
+    font-size: 1.1em;
+    color: var(--clr);
+}
+
+.visa{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/visa.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.paypal{
+    width: 60px;
+    height: 30px;
+    background-image: url(../../Imagenes/paypal.png);
+    background-position: center;
+    background-size: cover;
+    transition: .5s;
+}
+
+.master{
+    width: 60px;
+    height: 30px;
+    border: 2px solid #000;
+    background-image: url(../../Imagenes/tarjeta-de-credito.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.master:hover{
+    box-shadow: 0 0 30px 5px red;
+}
+.visa:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+.paypal:hover{
+    box-shadow: 0 0 30px 5px #0931b5;
+}
+.atencion a{
+    text-decoration: none;
+    color: #fff;
+}
